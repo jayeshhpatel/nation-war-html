@@ -84,7 +84,8 @@
 				@include align-items(center);
 				margin: 0 0 0 auto;
 				list-style-type: none;
-				position: relative;font-family: "Morn-Light";
+				position: relative;
+				font-family: "Morn-Medium";
 				@media (max-width:991px) {
 					padding: 0;
 					display: block;
@@ -190,6 +191,7 @@
         border: none;
         background-color: transparent;
         z-index: 10;
+		font-size: 0;
         position: relative;
         padding: 10px 0 10px 20px;
 		&.toggle {
